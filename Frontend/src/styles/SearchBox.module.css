@@ -1,0 +1,72 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.searchBoxContainer {
+  margin-top: 40px;
+  width: 807px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Pretendard;
+}
+.bigCate {
+  width: 176px;
+  height: 52px;
+  border: 1px solid #969696;
+  border-radius: 14px;
+  padding-left: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../images/arrow-down.png") no-repeat 95% 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: Pretendard;
+}
+.smallCate {
+  width: 150px;
+  height: 52px;
+  border: 1px solid #969696;
+  border-radius: 14px;
+  padding-left: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../images/arrow-down.png") no-repeat 95% 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: Pretendard;
+}
+.searchText {
+  width: 330px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #A57CFF;
+  border-radius: 14px;
+  text-align: center;
+  color:#A57CFF;
+  font-size: 1.1rem;
+  font-family: Pretendard;
+}
+.searchText:focus {
+  outline: none;
+}
+.searchText:focus::placeholder {
+  color: transparent;
+}
+.searchText::placeholder {
+  color:#A57CFF;
+}
+.searchBtn {
+  width: 56px;
+  height: 48px;
+  background: #A57CFF;
+  border: 1px solid #A57CFF;
+  border-radius: 14px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: .5s;
+}
+.searchBtn:active {
+  width: 70px;
+  height: 60px;
+}

@@ -1,0 +1,60 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.mainContainer {
+  position: absolute;
+  width: 875px;
+  height: 962px;
+  left: 535px;
+  top: 47px;
+  border: 3px solid #111;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Pretendard;
+}
+.char {
+  position: absolute;
+  top: -90px;
+  left: 40px;
+  z-index: -1;
+  animation-duration: 7s;
+  animation-name: ani;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes ani {
+  0% {
+    transform: translate(0%);
+  }
+  10% {
+    transform: translate(140%, -15%);
+  }
+  20% {
+    transform: translate(280%);
+  }
+  30% {
+    transform: translate(420%, -15%);
+  }
+  40% {
+    transform: translate(560%);
+  }
+  50% {
+    transform: translate(700%, -15%);
+  }
+  60% {
+    transform: translate(560%);
+  }
+  70% {
+    transform: translate(420%, -15%);
+  }
+  80% {
+    transform: translate(280%);
+  }
+  90% {
+    transform: translate(140%, -15%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}

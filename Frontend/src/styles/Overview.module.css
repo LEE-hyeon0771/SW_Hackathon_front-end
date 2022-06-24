@@ -1,0 +1,202 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.overviewContainer {
+  margin-top: 55px;
+  width: 807px;
+  height: 218px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Pretendard;
+}
+.temp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.imgContainer {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgContainer img {
+  width: 80%;
+  transition: .5s;
+  cursor: pointer;
+}
+.imgContainer img:hover {
+  width: 85%;
+}
+.infoContainer {
+  margin: 10px 0 10px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Pretendard;
+}
+
+.infoContainer div {
+  position: relative;
+  width: 100%;
+  height: 33%;
+}
+.infoContainer div:first-child {
+  display: flex;
+  
+}
+.infoContainer div:first-child div {
+  width: 50%;
+  height: 100%;
+}
+.info {
+  width: 100%;
+  height: 100%;
+}
+.info span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #FF7B7B;
+  font-family: Pretendard;
+}
+.info .zero {
+  color: #00E0C4;
+}
+.info span + .only {
+  left: 30px;
+}
+.info div {
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+  width: fit-content;
+  height: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  font-family: Pretendard;
+}
+.infoContainer div:first-child>div div {
+  width: 90%;
+  height:fit-content;
+  white-space: nowrap;
+}
+.timeContainer {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Pretendard;
+}
+.timeContainer span {
+  margin-bottom: 13px;
+  color: #7D7AFF;
+}
+.timeContainer ul li {
+  margin-bottom: 4px;
+  font-family: Pretendard;
+}
+.timeContainer ul li:last-child {
+  color: red;
+}
+.defaultImg {
+  margin-top: 10px;
+  width: 555px;
+  height: 150px;
+}
+.Modal {
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 400px;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Modal .title {
+  font-size: 2rem;
+  font-family: Pretendard;
+  margin-top: 20px;
+}
+.Modal .header {
+  margin-top: 40px;
+  width: 90%;
+  height: 25px;
+  border-bottom: 1px solid black;
+}
+.Modal .header span {
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  font-family: Pretendard;
+}
+.Modal .header span:nth-child(1) {
+  width: 15%;
+}
+.Modal .header span:nth-child(2) {
+  width: 65%;
+}
+.Modal .header span:nth-child(3) {
+  width: 20%;
+}
+.Modal .listBox {
+  width: 90%;
+  height: auto;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.Modal .listBox::-webkit-scrollbar {
+  display: none;
+}
+.Modal .listBox div {
+  height: 40px;
+  border-bottom: 1px solid #eee;
+}
+.Modal .listBox span {
+  display: inline-block;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.Modal .listBox span:nth-child(1) {
+  width: 15%;
+}
+.Modal .listBox span:nth-child(2) {
+  width: 65%;
+}
+.Modal .listBox span:nth-child(3) {
+  width: 20%;
+}
+.Modal button {
+  position: absolute;
+  bottom: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 22px;
+  background-color: #111;
+  border: none;
+  font-family: Pretendard;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,257 @@
+const data = [
+  {
+    "id": 1,
+    "name": "수지정다운약국",
+    "phone": "031-262-1125",
+    "addressName": "경기도 용인시 수지구 신봉동 33번지 센트럴500 217호",
+    "roadAddressName": "경기도 용인시 수지구 신봉2로 2",
+    "time": {
+      "mon_start": "9:00",
+      "mon_end": "20:00",
+      "tue_start": "9:00",
+      "tue_end": "20:00",
+      "wed_start": "9:00",
+      "wed_end": "20:00",
+      "thu_start": "9:00",
+      "thu_end": "20:00",
+      "fri_start": "9:00",
+      "fri_end": "20:00",
+      "sat_start": "",
+      "sat_end": "",
+      "sun_start": "",
+      "sun_end": "",
+      "hol_start": "",
+      "hol_end": "",
+    },
+    "lat": 37.3231779493,
+    "long": 127.0779941675,
+    "category": 0
+  },
+  {
+    "id": 2,
+    "name": "열린우리약국",
+    "phone": "031-265-4833",
+    "addressName": "경기도 용인시 수지구 신봉동 39번지",
+    "roadAddressName": "경기도 용인시 수지구 신봉2로 5",
+    "time": {
+      "mon_start": "9:00",
+      "mon_end": "20:00",
+      "tue_start": "9:00",
+      "tue_end": "20:00",
+      "wed_start": "9:00",
+      "wed_end": "20:00",
+      "thu_start": "9:00",
+      "thu_end": "20:00",
+      "fri_start": "9:00",
+      "fri_end": "20:00",
+      "sat_start": "",
+      "sat_end": "",
+      "sun_start": "",
+      "sun_end": "",
+      "hol_start": "",
+      "hol_end": "",
+    },
+    "lat": 37.3235993369,
+    "long": 127.0773597443,
+    "category": 0
+  },
+  {
+    "id": 3,
+    "name": "예쁜약국",
+    "phone": "031-893-0750",
+    "addressName": "경기도 용인시 수지구 신봉동 33번지 센트럴500 223호",
+    "roadAddressName": "경기도 용인시 수지구 신봉2로 2",
+    "time": {
+      "mon_start": "9:00",
+      "mon_end": "20:00",
+      "tue_start": "9:00",
+      "tue_end": "20:00",
+      "wed_start": "9:00",
+      "wed_end": "20:00",
+      "thu_start": "9:00",
+      "thu_end": "20:00",
+      "fri_start": "9:00",
+      "fri_end": "20:00",
+      "sat_start": "",
+      "sat_end": "",
+      "sun_start": "",
+      "sun_end": "",
+      "hol_start": "",
+      "hol_end": "",
+    },
+    "lat": 37.3244817106,
+    "long": 127.0770839136,
+    "category": 0,
+    "pharMedicines": [{
+      "id": 5,
+      "type": "소화기관약",
+      "detailType": "소화제",
+      "name": "베아제정",
+      "code": "A11A0430A0267",
+      "stockNum": 29
+    },
+    {
+      "id": 6,
+      "type": "소화기관약",
+      "detailType": "닥터베아제",
+      "name": "타이레놀정160mg",
+      "code": "A11AOOOOO0816",
+      "stockNum": 11
+    },
+    {
+      "id": 16,
+      "type": "감기질환약",
+      "detailType": "해열진통제",
+      "name": "타이레놀정160mg",
+      "code": "A11A4380A0049",
+      "stockNum": 17
+    },
+    {
+      "id": 17,
+      "type": "감기질환약",
+      "detailType": "해열진통제",
+      "name": "게보린정",
+      "code": "A11A1270A0060",
+      "stockNum": 21
+    },
+    {
+      "id": 18,
+      "type": "감기질환약",
+      "detailType": "해열진통제",
+      "name": "부루펜정200mg",
+      "code": "A11A0500A0097",
+      "stockNum": 5
+    },
+    {
+      "id": 18,
+      "type": "감기질환약",
+      "detailType": "해열진통제",
+      "name": "펜잘큐정",
+      "code": "A11AKP08K0088",
+      "stockNum": 6
+    },
+    ],
+  },
+  {
+    "id": 1,
+    "category": 1,
+    "name": "세븐일레븐 용인신봉진성점",
+    "phone": "031-333-5995",
+    "addressName": "경기도 용인시 수지구 신봉동 955번지 5호",
+    "roadAddressName": "경기도 용인시 수지구 신봉2로 115-20 (신봉동)",
+    "lat": 37.3236502,
+    "long": 127.076696,
+  },
+  {
+    "id": 2,
+    "category": 1,
+    "name": "씨유 수지신봉로점",
+    "phone": "031-285-2769",
+    "addressName": "경기도 용인시 수지구 신봉동 265번지 6호",
+    "roadAddressName": "경기도 용인시 수지구 신봉2로 115-42 (신봉동)",
+    "lat": 37.3242092,
+    "long": 127.077936,
+    "convMedicines": [
+      {
+        "id": 5,
+        "type": "소화기관약",
+        "detailType": "소화제",
+        "name": "베아제정",
+        "code": "A11A0430A0267",
+        "stockNum": 10
+      },
+      {
+        "id": 6,
+        "type": "소화기관약",
+        "detailType": "소화제",
+        "name": "닥터베아제정",
+        "code": "A11AOOOOO0816",
+        "stockNum": 3
+      },
+      {
+        "id": 7,
+        "type": "소화기관약",
+        "detailType": "소화제",
+        "name": "훼스탈골드정",
+        "code": "A11A0740B0011",
+        "stockNum": 0
+      },
+      {
+        "id": 8,
+        "type": "소화기관약",
+        "detailType": "소화제",
+        "name": "훼스탈플러스정",
+        "code": "A11A0740B0009",
+        "stockNum": 0
+      },
+      {
+        "id": 9,
+        "type": "감기질환약",
+        "detailType": "해열진통제",
+        "name": "어린이용타이레놀정80mg",
+        "code": "A11A4380A0042",
+        "stockNum": 10
+      },
+      {
+        "id": 16,
+        "type": "감기질환약",
+        "detailType": "해열진통제",
+        "name": "어린이부루펜시럽",
+        "code": "A11A0500A0154",
+        "stockNum": 4
+      },
+      {
+        "id": 17,
+        "type": "감기질환약",
+        "detailType": "해열진통제",
+        "name": "타이레놀정160mg",
+        "code": "A11A1270A0060",
+        "stockNum": 21
+      },
+      {
+        "id": 18,
+        "type": "감기질환약",
+        "detailType": "해열진통제",
+        "name": "부루펜정200mg",
+        "code": "A11A0500A0097",
+        "stockNum": 5
+      },
+      {
+        "id": 19,
+        "type": "감기질환약",
+        "detailType": "해열진통제",
+        "name": "펜잘큐정",
+        "code": "A11AKP08K0088",
+        "stockNum": 6
+      },
+      {
+        "id": 20,
+        "type": "외용약",
+        "detailType": "파스",
+        "name": "신신파스아렉스",
+        "code": "A11AKP08F1147",
+        "stockNum": 6
+      },
+      {
+        "id": 21,
+        "type": "외용약",
+        "detailType": "파스",
+        "name": "제일쿨파스",
+        "code": "A11ACCCCC0227",
+        "stockNum": 6
+      },
+    ],
+  },
+  {
+    "id": 3,
+    "category": 1,
+    "name": "GS25 신봉늘푸른점",
+    "phone": "031-333-0856",
+    "addressName": "경기도 용인시 수지구 신봉동 933번지 4호",
+    "roadAddressName": "경기도 용인시 수지구 신봉2로 116 (신봉동)",
+    "lat": 37.3236065,
+    "long": 127.079137,
+  },
+]
+
+export default data;

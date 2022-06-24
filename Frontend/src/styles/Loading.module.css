@@ -1,0 +1,57 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.loadingContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Pretendard;
+}
+.loadingBox {
+  width: 280px;
+  height: 308px;
+  background-color: #00E1C5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.charBox {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 24px;
+}
+.loadingText {
+  text-align: center;
+  color: white;
+}
+.progBox {
+  margin-bottom: 24px;
+  width: 190px;
+  height: 50px;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.prog {
+  float: left;
+  width: 0px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  transition: 3.5s cubic-bezier(0.31, 0.01, 0.29, 0.98);
+}
+.progText {
+  position: absolute;
+  width: 190px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}

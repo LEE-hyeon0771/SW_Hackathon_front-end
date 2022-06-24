@@ -1,0 +1,15 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+.mapContainer {
+  position: absolute;
+  width: 478px;
+  height: 847px;
+  left: 30px;
+  top: 162px;
+  border-radius: 22px;
+  overflow: hidden;
+  font-family: Pretendard;
+}
+.map {
+  width: 100%;
+  height: 100%;
+}
