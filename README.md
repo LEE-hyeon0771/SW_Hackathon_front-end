@@ -1,6 +1,5 @@
 # SW_Hackthon
-
-# 2022년 SW중심대학 공동해커톤
+2022년 SW중심대학 공동해커톤
 
 # 참여
 프론트엔드 개발자
@@ -12,8 +11,8 @@ react
 위치 기반 약국 / 편의점 약품 재고 수량 및 사용법에 대한 웹 서비스
 
 # 첨부링크 
-https://www.notion.so/SW-03111cfadd5b46c8a03f89482ed7755b
-https://youtu.be/2C4dUHSfGIA
+1. https://www.notion.so/SW-03111cfadd5b46c8a03f89482ed7755b
+2. https://youtu.be/2C4dUHSfGIA
 
 # 느낀점
 좋은 사람들과 6.22~6.24 약 3일에 걸쳐 웹 서비스 해커톤을 진행했습니다. 아이디어를 직접 내고 참여하여 더욱 뜻깊은 해커톤이었습니다. 
